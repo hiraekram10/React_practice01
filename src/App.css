@@ -1,0 +1,101 @@
+.App{
+  min-height: 100vh;
+  min-width: 100vw;
+  /* background-color: aqua; */
+}
+
+.Header {
+  background-color: #ffffff;
+  min-height: 10vh;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: rgb(0, 0, 0);
+}
+.profileImg{
+  width: 20vh;
+  height: 12vw;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  border:3px solid #3b7cff ;
+  border-radius:60% ;
+  background-color: #3b7cff;
+
+ 
+
+
+}
+img{
+  width: 100%;
+  height: 100%;
+  clip-path: circle(50% at 50% 50%);
+  
+}
+
+.section-2{
+  margin-left: 12rem;
+  font-family:  sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ justify-content: center;
+}
+
+.name_1{
+  font-size: 2em;
+  font-style: italic;
+  
+}
+.name_2{
+  color: grey;
+  margin-top: -4%;
+  font-weight: 400;
+  
+}
+.description{
+  align-self: start;
+  margin-top: -2%;
+  font-weight: 540;
+  
+
+}
+.body{
+  margin-top: -1.9em;
+  /* background-color: #153d8b; */
+  width: 100%;
+  height: 70vh;
+}
+.contact{
+  background-color: blue;
+  color: white;
+  width: 15%;
+  font-size: 2em;
+  font-weight: 400;
+  border-radius: 5%;
+   margin: 40px auto;
+   text-align: center;
+}
+.contact:hover{
+  background-color: #3b7cff;
+}
+.num{
+  text-align: center;
+}
+.nav{
+  background-color: blue;
+ 
+}
+.nav li{
+  list-style-type: none;
+  display: inline;
+  margin:  30px;
+}
+.nav a{
+  color: #ffffff;
+  text-decoration: none;
+  
+}
